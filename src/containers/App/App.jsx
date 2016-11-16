@@ -1,6 +1,7 @@
 import './App.css'
 import React, { Component } from 'react'
 import { connect } from 'react-redux'
+import '../../lib/pubnub'
 
 const mapProps = state => ({
 
