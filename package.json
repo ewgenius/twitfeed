@@ -3,6 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "devDependencies": {
+    "@types/immutable": "^3.8.6",
+    "@types/react": "^0.14.52",
+    "@types/react-dom": "^0.14.19",
     "autoprefixer": "6.5.1",
     "babel-core": "6.17.0",
     "babel-eslint": "7.0.0",
