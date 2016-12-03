@@ -11,8 +11,8 @@ export function runTwitterStream(onMessage, fake = false) {
     message: message => {
       const fixedMessage = fake ? {
         ...message,
-        favorite_count: randomInt(0, 3000),
-        retweet_count: randomInt(0, 3000)
+        favorite_count: randomInt(0, 1100),
+        retweet_count: randomInt(0, 1100)
       } : message
       onMessage(fixedMessage)
     }
