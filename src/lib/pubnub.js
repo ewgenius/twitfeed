@@ -5,7 +5,8 @@ export function randomInt(a, b) {
 
 export function runTwitterStream(onMessage, fake = false) {
   PUBNUB.init({
-    subscribe_key: 'sub-c-78806dd4-42a6-11e4-aed8-02ee2ddab7fe'
+    subscribe_key: 'sub-c-78806dd4-42a6-11e4-aed8-02ee2ddab7fe',
+    ssl: true
   }).subscribe({
     channel: 'pubnub-twitter',
     message: message => {
